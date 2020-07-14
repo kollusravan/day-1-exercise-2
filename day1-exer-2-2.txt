@@ -1,0 +1,43 @@
+using system;
+namespace Product
+{
+class Product
+{
+int productId;
+string productBrand;
+string trademark;
+double price;
+string color;
+
+ void Display()
+ {
+ Console.WriteLine("ID:" + productId + " " + productBrand + " "producttrademark" "-" + price + " " + color);
+ }
+static void main(string[] args)
+{
+product1=new product;
+product1.productID = 55345;
+product1.productBrand = "iphone";
+product1.price = 20000;
+product1.producttrademark="Generic Terms"
+product1.color = "Black";
+			
+			
+product1.Display();
+}
+}
+class ProductMoodel
+{
+static void main(string[] args)
+{
+product1=new product;
+product1.productID = 55345;
+product1.productBrand = "iphone";
+product1.price = 20000;
+product1.producttrademark="Generic Terms"
+product1.color = "Black";
+			
+product1.Display();
+}
+}
+}
